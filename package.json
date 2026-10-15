@@ -1,0 +1,42 @@
+
+{
+  "name": "prism-obsidian",
+  "displayName": "Prism Obsidian",
+  "description": "Prism Crew'dan; obsidyen siyahı, gümüş ve altın renklerini temel alan, incelikli bir tema.",
+  "version": "0.0.1",
+  "publisher": "PrismCrew",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "obsidian",
+    "black",
+    "silver",
+    "gold",
+    "prism",
+    "prism-crew"
+  ],
+  "galleryBanner": {
+    "color": "#08090D",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Prism Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/prism-obsidian-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "check": "vsce ls"
+  }
+}
