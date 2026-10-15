@@ -1,10 +1,13 @@
-
 {
   "name": "prism-obsidian",
   "displayName": "Prism Obsidian",
   "description": "Prism Crew'dan; obsidyen siyahı, gümüş ve altın renklerini temel alan, incelikli bir tema.",
   "version": "0.0.1",
   "publisher": "PrismCrew",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliberkkoc3-hash/Prism-Obsidian.git"
+  },
   "license": "MIT",
   "engines": {
     "vscode": "^1.80.0"
