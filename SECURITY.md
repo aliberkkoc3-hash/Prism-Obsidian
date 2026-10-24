@@ -1,39 +1,43 @@
+# Prism Crew Studio — Security Policy
 
-# Güvenlik Politikası
+**Version:** 1.0  
+**Effective Date:** October 24, 2026  
+**Copyright:** © 2026 Prism Crew Studio. All rights reserved.
 
-Prism Obsidian'ın güvenli ve güvenilir bir geliştirme deneyimi sunmasını önemsiyoruz.
+### 1. Our Objective
 
-## Desteklenen Sürümler
+At Prism Crew Studio, we prioritize the security of our projects, source code, and users. This policy outlines how security vulnerabilities discovered in our projects should be reported and addressed.
 
-| Sürüm | Güvenlik Desteği |
-|---|---|
-| 1.0.x | Destekleniyor |
+### 2. Supported Versions
 
-Güvenlik bildirimleri öncelikli olarak en güncel sürüm için değerlendirilir.
+Security updates are provided for project versions that we actively maintain and explicitly support. The support status for each project is specified within its respective repository.
 
-## Güvenlik Açığı Bildirme
+### 3. Reporting Vulnerabilities
 
-Olası bir güvenlik açığı tespit edersen lütfen sorumlu bir şekilde bildir.
+If you discover a security vulnerability, please:
 
-- Sorunun ayrıntılarını, inceleme yapılmadan herkese açık şekilde paylaşma.
-- GitHub deposunda özel güvenlik bildirimi özelliği etkinse **Report a vulnerability** seçeneğini kullan.
-- Bu özellik etkin değilse proje sorumlusuyla resmî proje hesabı üzerinden iletişime geçerek özel bir bildirim kanalı talep et.
+- Report it privately to Prism Crew Studio before disclosing it publicly.
+- Identify the affected project and version.
+- Describe the impact of the vulnerability and, if possible, provide steps to reproduce it.
+- Do not include passwords, access keys, or other personal/sensitive information in your report.
 
-Bildirime mümkünse şunları ekle:
+For reporting, please use the *Private vulnerability reporting* feature found under the **Security** tab of the relevant GitHub repository. If this feature is unavailable, please use the private communication channel specified by the repository maintainer.
 
-- Etkilenen sürüm
-- Sorunun nasıl ortaya çıktığı
-- Yeniden oluşturma adımları
-- İlgili ekran görüntüleri veya günlük kayıtları
+### 4. Responsible Disclosure
 
-## Kapsam
+We request that you allow a reasonable amount of time for us to investigate, verify, and remediate any reported vulnerabilities. Vulnerabilities should not be disclosed publicly without prior coordination with Prism Crew Studio.
 
-Prism Obsidian bir VS Code renk temasıdır. Normal işlevi için bir arka plan sunucusu veya ağ bağlantısı gerektirmez.
+We do not guarantee that every report will be accepted, resolved within a specific timeframe, or eligible for a reward.
 
-Temanın dosyalarında şüpheli değişiklikler, beklenmeyen davranışlar veya zararlı olabilecek içerikler fark edersen bildirimde bulunabilirsin.
+### 5. Scope and Limitations
 
-## Yanıt Süreci
+Security research must be conducted only on systems for which you have authorization and in compliance with all applicable laws. Do not access user data, disrupt services, or put others' systems at risk by testing for vulnerabilities.
 
-Bildirimler, proje sorumlusunun zamanı ve imkânları doğrultusunda incelenir. Uygun olduğunda çözüm veya düzeltme hakkında bilgi verilir.
+### 6. Communication
 
-Bildirimin alındığı ya da sorunun çözüldüğü, doğrulama yapılmadan varsayılmamalıdır.
+For security-related notifications, use the security contact method specified in the GitHub repository for the relevant project. Do not assume or guess a contact address that has not been explicitly provided.
+
+---
+
+**Prism Crew Studio**  
+*Beyond the Spectrum*
